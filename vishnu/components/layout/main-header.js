@@ -62,6 +62,9 @@ function MainHeader() {
           <li>
             <Link href="/emergency">Emergency Assistance</Link>
           </li>
+          <li>
+            <Link href="/contact">Contact-Us</Link>
+          </li>
 
           {!session && !loading && (
             <li>
