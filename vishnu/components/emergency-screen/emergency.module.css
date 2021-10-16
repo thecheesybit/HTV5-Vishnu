@@ -1,0 +1,55 @@
+.emergency h1 {
+  text-align: center;
+  color: black;
+  margin-top: 1;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 3.0625rem;
+  line-height: 1.1224489796;
+  color: #30353a;
+}
+
+.emergency p {
+  text-align: center;
+  /* color: black; */
+  margin-top: 1;
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.0625rem;
+  line-height: 1.1224489796;
+  color: #30353a;
+}
+
+.emergency a {
+  -webkit-transition: color 75ms, background-color 75ms, border-color 75ms;
+  -ms-transition: color 75ms, background-color 75ms, border-color 75ms;
+  transition: color 75ms, background-color 75ms, border-color 75ms;
+  background-color: transparent;
+  color: #3c8700;
+  border-style: none;
+  border-bottom: solid;
+  border-width: 1px;
+  border-radius: 0;
+  cursor: pointer;
+  display: inline;
+  font-size: inherit;
+  font-weight: 400;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+}
+
+.gg {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20;
+}
+
+.flexgg {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* max-width: 856px; */
+  margin: 0;
+}

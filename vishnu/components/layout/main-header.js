@@ -43,6 +43,12 @@ function MainHeader() {
               <Link href="/#faq">FAQ</Link>
             </li>
           )}
+
+          {session && (
+            <li>
+              <Link href="/chat">CHAT</Link>
+            </li>
+          )}
           {session && (
             <li>
               <Link href="/connect">CONNECT</Link>
@@ -53,6 +59,10 @@ function MainHeader() {
               <Link href="/profile">PROFILE</Link>
             </li>
           )}
+          <li>
+            <Link href="/emergency">Emergency Assistance</Link>
+          </li>
+
           {!session && !loading && (
             <li>
               <button onClick={authHandler}>REGISTER</button>

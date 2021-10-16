@@ -7,7 +7,7 @@ function StartingPageContent() {
       <div>
         <div className="leftbox">
           <h1>Welcome to Vishnu!</h1>
-          <p>Hey there! Happy to have you with us.</p>
+          <p></p>
         </div>
         <div className="rightbox">
           <Image src={hero} alt="hero" width={700} height={550} />
