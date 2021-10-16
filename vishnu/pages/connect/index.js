@@ -34,7 +34,7 @@ function Connect() {
 
   return (
     <div>
-      <p className="center">Welcome to U Connect!</p>
+      <p className="center">Welcome to U-Connect!</p>
     </div>
   );
 
