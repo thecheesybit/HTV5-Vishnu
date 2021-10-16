@@ -45,6 +45,11 @@ function MainHeader() {
           )}
           {session && (
             <li>
+              <Link href="/connect">CONNECT</Link>
+            </li>
+          )}
+          {session && (
+            <li>
               <Link href="/profile">PROFILE</Link>
             </li>
           )}
