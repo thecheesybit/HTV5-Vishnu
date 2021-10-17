@@ -1,0 +1,14 @@
+.leftbox {
+  background-color: #30353a;
+  color: white;
+  flex-wrap: inherit;
+}
+
+.flexgg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* max-width: 856px; */
+    margin: 0;
+  }
+  

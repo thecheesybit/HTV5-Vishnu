@@ -3,6 +3,7 @@ import { getSession } from "next-auth/client";
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import load from "/public/loading.gif";
+import DashboardScreen from "../components/dashboard/dashboard-screen";
 
 function Dashboard() {
     const [isLoading, setIsLoading] = useState(true);
@@ -35,6 +36,7 @@ function Dashboard() {
   return (
     <div>
       <p className="center">Welcome to Dashboard!</p>
+      <DashboardScreen></DashboardScreen>
     </div>
   );
 }
